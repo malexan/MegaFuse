@@ -26,9 +26,9 @@ to compile on debian or ubuntu you need these additional packages:
 	
 	apt-get install libcrypto++-dev libcurl4-openssl-dev libdb5.1++-dev libfreeimage-dev libreadline-dev libfuse-dev
 
-to compile on fedora
+to compile on fedora:
 
-  cryptlib-devel cryptopp-devel freeimage-devel fuse-devel libdb-cxx-devel readline-devel 
+	dnf install cryptlib-devel cryptopp-devel freeimage-devel fuse-devel libdb-cxx-devel readline-devel 
 
 you can pass additional options to the fuse module via the command line option -f. example:
 	
